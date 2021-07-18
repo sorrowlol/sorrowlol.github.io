@@ -1,0 +1,106 @@
+html, body{
+    background-color: black;
+}
+
+body {
+    cursor: url('http://www.rw-designer.com/cursor-extern.php?id=161034'), auto;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Press Start 2P';
+    color: white;
+    font-size: 42px;
+    padding: 20px;
+}
+
+#winner{
+    text-align: center;
+    font-family: 'Press Start 2P';
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#player-choice{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: -80px;
+
+}
+
+#score{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    width: 600px;
+    background-color: black;
+    border-style: solid;
+    padding: 100px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    bottom: 400px;
+
+}
+
+#results{
+    color: white;
+    font-family: 'Press Start 2P';
+    text-align: center;
+    margin-left: 10px;
+
+
+}
+
+#START{
+        animation: START 2s linear infinite;
+        color: white;
+        font-family: 'Press Start 2P';
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 30px;
+
+}
+
+@keyframes START {
+        50% {
+          opacity: 0;
+        }
+      }
+
+
+#scissors{
+    filter: invert(55%) sepia(43%) saturate(1991%) hue-rotate(109deg) brightness(96%) contrast(101%);
+    margin-top: 10px;
+}
+
+#paper{
+    filter: invert(20%) sepia(97%) saturate(7180%) hue-rotate(330deg) brightness(102%) contrast(106%);
+}
+
+#rock{
+    filter: invert(44%) sepia(92%) saturate(1050%) hue-rotate(189deg) brightness(101%) contrast(101%);
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.player-score{
+    text-align: center;
+    font-family: 'Press Start 2P';
+    color: rgb(225, 0, 255);
+    padding: 10px;
+    height: 20px;
+}
+
+.computer-score{
+    text-align: center;
+    font-family: 'Press Start 2P';
+    color: rgb(225, 0, 255);
+    padding: 10px;
+    height: 20px;
+}
+
