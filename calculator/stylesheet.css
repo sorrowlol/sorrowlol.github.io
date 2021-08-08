@@ -1,0 +1,96 @@
+:root{
+  user-select: none;
+}
+
+html, body{
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 26px;
+
+}
+
+body > h1, h3{
+    color: rgb(10, 255, 10);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: -20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 120px;
+}
+
+.main-calculator{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: rgb(130, 110, 202);
+    padding: 20px;
+    background-color: grey;;
+    border-radius: 30px;
+}
+
+.grid-calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    text-align: center;
+    background-color: grey;
+    grid-gap: 10px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.clearbutton, .deletebutton{
+    grid-column: span 2;
+    height: 70px;
+    line-height: 70px;
+    border: 2px solid rgb(145, 10, 255);
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.result{
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    grid-column: span 4;
+    border-style: solid;
+    border-color: rgb(145, 10, 255);
+    border-radius: 10px;
+}
+
+.buttons{
+    background-color: black;
+    height: 70px;
+    line-height: 70px;
+    border: 2px solid rgba(0, 255, 234, 0.418);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+.left-cat{
+    position:absolute;
+    top:0;
+    right:10%;
+
+    filter: sepia(18%) saturate(2598%) ;
+}
+
+.right-cat{
+    position: absolute;
+    left: 10%;
+    top: 420px;   
+
+    filter: sepia(88%) saturate(238%) ;
+}
